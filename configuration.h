@@ -1,4 +1,15 @@
-#define BOARD_V2_3
+#define BOARD_V3_0
+
+#ifdef BOARD_V3_0 
+  #define GATE 6
+  #define LIGHT_RED 2
+  #define LIGHT_YELLOW_1 5
+  #define LIGHT_YELLOW_2 3  
+  #define LIGHT_GREEN 4 
+  #define SPEAKER 9
+  #define START 7
+  #define TIMER 0
+#endif
 
 #ifdef BOARD_V2_3 
   #define GATE 6

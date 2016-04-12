@@ -55,7 +55,7 @@ void setup() {
   pinMode(LIGHT_YELLOW_1, OUTPUT);
   pinMode(LIGHT_YELLOW_2, OUTPUT);
   pinMode(LIGHT_GREEN, OUTPUT);
-  pinMode(START, INPUT);
+  pinMode(START, INPUT_PULLUP);
 
   //disable hum of speaker before first cadence
   pinMode(SPEAKER, OUTPUT);
@@ -198,7 +198,7 @@ long startCadence(){
 
   //Random delay .1 - 2.7 sec
   //offical delay of .1 was to fast, using .250
-  randNumber = random(.350, 2700);
+  randNumber = random(.550, 2700);
   delay(randNumber);        
 
   //Red Light
