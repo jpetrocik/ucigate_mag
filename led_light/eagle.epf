@@ -1,0 +1,35 @@
+[Eagle]
+Version="06 04 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Aesthetics.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-AnalogIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Boards.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Capacitors.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Connectors.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-DigitalIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Displays.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Electromechanical.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-LED.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Passives.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-PowerIC.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-RF.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Resistors.lbr"
+UsedLibrary="/Applications/EAGLE-6.4.0/lbr/SparkFun-Sensors.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="420 293 1019 692"
+State=2
+Number=0
+
+[Desktop]
+Screen="1680 1050"
+Window="Win_1"
