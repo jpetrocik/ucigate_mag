@@ -1,6 +1,6 @@
-#define BOARD_V3_0
+#define BOARD_V3_X
 
-#ifdef BOARD_V3_0 
+#ifdef BOARD_V3_X 
   #define GATE 6
   #define LIGHT_RED 2
   #define LIGHT_YELLOW_1 5
