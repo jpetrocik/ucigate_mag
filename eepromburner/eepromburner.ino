@@ -12,18 +12,6 @@
 
 #include "cadencepart2.h"
 
-void setup()
-{
-
-  //initalized i2c and set to 400Hz
-  Wire.begin();
-  TWBR = 12;
-
-  pinMode(13,OUTPUT);
-  digitalWrite(13,HIGH);
-  writeEEPROM(cadence_start, &cadence[0], sizeof(cadence));
-  digitalWrite(13,LOW);
-}
 
 void loop(){
   digitalWrite(13,HIGH);
@@ -79,4 +67,16 @@ void readEEPROM(unsigned int address, unsigned int length )
 
 
 
+void setup()
+{
+
+  //initalized i2c and set to 400Hz
+  Wire.begin();
+  TWBR = 12;
+
+  pinMode(13,OUTPUT);
+  digitalWrite(13,HIGH);
+  writeEEPROM(cadence_start, &cadence[0], sizeof(cadence));
+  digitalWrite(13,LOW);
+}
 
