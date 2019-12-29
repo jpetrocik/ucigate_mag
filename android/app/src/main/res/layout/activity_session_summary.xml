@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/summaryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".SessionSummaryActivity" >
+
+    <LinearLayout
+        android:id="@+id/summaryGraph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/summaryRange"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="1dp"
+               android:layout_weight="1"
+               android:background="@color/darkGrey"
+               android:text="Range:"
+               android:textColor="@color/white"
+               android:textSize="25sp" />
+
+           <TextView
+               android:id="@+id/summaryDetailGate"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="@color/darkGrey"
+               android:text="Gates:"
+               android:textColor="@color/white"
+               android:textSize="25sp" />
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="2dp"
+           android:orientation="horizontal" >
+
+           <TextView
+               android:id="@+id/summaryBest"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="1dp"
+               android:layout_weight="1"
+               android:background="@color/darkGrey"
+               android:text="Best"
+               android:textColor="@color/white"
+               android:textSize="25sp" />
+
+           <TextView
+               android:id="@+id/summaryAvg"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_marginRight="1dp"
+               android:layout_weight="1"
+               android:background="@color/darkGrey"
+               android:text="Avg"
+               android:textColor="@color/white"
+               android:textSize="25sp" />
+
+           <TextView
+               android:id="@+id/summaryWorst"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="@color/darkGrey"
+               android:text="Worst"
+               android:textColor="@color/white"
+               android:textSize="25sp" />
+
+       </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/summaryDetailGateNumberHeader"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="1dp"
+	        android:layout_weight=".7"
+	        android:background="@color/darkGrey"
+	        android:gravity="left"
+	        android:paddingLeft="5dp"
+	        android:text="Gate"
+	        android:textColor="@color/white"
+	        android:textSize="25sp" />
+	
+	    <TextView
+	        android:id="@+id/summaryDetailGateTimeHeader"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="1dp"
+	        android:layout_weight="1"
+	        android:background="@color/darkGrey"
+	        android:gravity="right"
+            android:paddingRight="5dp"
+	        android:text="Time"
+	        android:textColor="@color/white"
+	        android:textSize="25sp" />
+	
+	    <TextView
+	        android:id="@+id/summaryDetailBestDiffHeader"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="1dp"
+	        android:layout_weight="1"
+	        android:background="@color/darkGrey"
+	        android:gravity="right"
+	        android:text="Best"
+            android:paddingLeft="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="25sp" />
+	
+	    <TextView
+	        android:id="@+id/summaryDetailAvgDiffHeader"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@color/darkGrey"
+	        android:gravity="right"
+	        android:text="Avg"
+            android:paddingLeft="5dp"
+	        android:textColor="@color/white"
+	        android:textSize="25sp" />
+	
+	</LinearLayout>
+
+       <ListView
+           android:id="@+id/summaryDetailHistoryListView"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_marginTop="2dp"
+           android:layout_weight="1" >
+
+       </ListView>
+       
+</LinearLayout>

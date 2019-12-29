@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_cadence_box">Cadence Box Settings</string>
+
+</resources>

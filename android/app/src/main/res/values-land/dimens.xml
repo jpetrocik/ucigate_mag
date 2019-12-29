@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- 
+    	Default timer font size
+    -->
+    <dimen name="timerFontSize">200sp</dimen>
+    
+</resources>
+    

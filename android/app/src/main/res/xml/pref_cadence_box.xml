@@ -1,0 +1,4 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:title="Software Version" android:key="sw_version" android:enabled="false" android:selectable="false" android:persistent="false" android:shouldDisableView="false"/>
+    <EditTextPreference android:title="Hardware Version" android:key="hw_version" android:enabled="false" android:selectable="false" android:persistent="false" android:shouldDisableView="false"/>
+</PreferenceScreen>

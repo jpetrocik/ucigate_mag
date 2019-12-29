@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+     <!-- 
+ 		Timer font size
+ 	 -->
+ 	<dimen name="timerFontSize">80sp</dimen>
+   
+ 	<!-- 
+ 		Best And Avg font size
+ 	 -->
+ 	<dimen name="bestAvgFontSize">25sp</dimen>
+ 	
+</resources>

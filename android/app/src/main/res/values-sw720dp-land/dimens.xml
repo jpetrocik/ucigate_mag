@@ -1,0 +1,17 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+ 
+ 	<!-- 
+ 		Timer Fontsize on tablet landscape
+ 	 -->
+ 	<dimen name="timerFontSize">400sp</dimen>
+ 
+ 	<!-- 
+ 		Best And Avg Fontsize
+ 	 -->
+ 	<dimen name="bestAvgFontSize">50sp</dimen>
+    
+ 	
+ 
+ </resources>

@@ -1,0 +1,17 @@
+package com.bmxgates;
+
+public enum Commands {
+		EVNT_OK_RIDERS, 
+		EVNT_RIDERS_READY, 
+		EVNT_GREEN_LIGHT, 
+		EVNT_YELLOW_2_LIGHT, 
+		EVNT_YELLOW_1_LIGHT, 
+		EVNT_RED_LIGHT, 
+		EVNT_TIMER_1, 
+		EVNT_CADENCE_STARTED,
+		START_CADENCE,
+		GET, 
+		SW_VERSION, 
+		HW_VERSION
+}
+
